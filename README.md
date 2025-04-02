@@ -2,6 +2,7 @@
 test git for skilbox lesson
 
 project created for testing git opportunity
+
 - create repository
 - clone repository for local machine
 git clone *url*
