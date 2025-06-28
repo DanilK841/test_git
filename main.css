@@ -10,12 +10,19 @@ header > div{
     justify-content: space-between;
     align-items: center;
 }  
+
+footer{
+    height: 300px;
+}
 .base-fixed {
     max-width: 900px;
-    background-color: aqua;
+    background-color:#f6f7f9;
     height: 100%;
     margin-left: auto;
     margin-right: auto;
+}
+.first-block {
+    height: 300px;
 }
 .rowalign {
     display: flex;
@@ -23,7 +30,31 @@ header > div{
     justify-content: center;
     align-items:flex-start;
 }
+.image-grid{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
 a {
     text-decoration: none;
     color: black;
+}
+.img-main{
+    background-image: url("image/man/man.png");
+    size: 100px;
+    background-size: 40%;
+    background-position-x: right;
+    background-repeat: no-repeat;
+}
+.img-work{
+    width: 140px;
+    padding-left: 10%;
+}
+.img-example{
+    width: 200px;
+}
+
+.img-icons{
+    width: 10px;
 }
